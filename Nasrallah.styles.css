@@ -72,6 +72,7 @@ table {
 *{
     box-sizing: border-box;
     line-height: 1.35;
+    
 }
 
 
@@ -79,6 +80,11 @@ table {
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
+@media (prefers-color-scheme: dark) {
+    .day.dark-scheme   { background: var(--dark-gray); color: white; }
+    .night.dark-scheme { background: var(--dark-gray); color: white; }
+  }
+  
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
