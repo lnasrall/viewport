@@ -203,7 +203,7 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-@media screen and (min-width:320px ){
+@media screen and (min-width:500px ){
     
 
      header, footer{
