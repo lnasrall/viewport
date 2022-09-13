@@ -184,7 +184,7 @@ section{
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 320px) {
 header, footer{
     background-color: var(--pink);
     color: var(--white);
@@ -240,7 +240,7 @@ img{
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
      header, footer{
         background-color: var(--black);
         color: var(--white);
