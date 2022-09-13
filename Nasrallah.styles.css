@@ -184,6 +184,7 @@ section{
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
+@media only screen and (max-width: 595px) {
 header, footer{
     background-color: var(--pink);
     color: var(--white);
@@ -199,7 +200,7 @@ img{
     display: inline;
     float: left;
 }
-
+}
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
@@ -313,10 +314,10 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
+     img{
         width: 300px;
         max-width: 300px;
-    } */
+    } 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
