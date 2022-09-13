@@ -204,7 +204,7 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-@media only screen and (max-width:550px ){
+@media only screen and (max-width:600px ){
     
 
      header, footer{
